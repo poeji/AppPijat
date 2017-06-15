@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/aia/!svn/ver/156/lib/pdftable/lib
+END
+htmlparser.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/aia/!svn/ver/156/lib/pdftable/lib/htmlparser.inc.php
+END
+pdftable.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/aia/!svn/ver/156/lib/pdftable/lib/pdftable.inc.php
+END
+pdftable.log
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/aia/!svn/ver/156/lib/pdftable/lib/pdftable.log
+END
+color.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/aia/!svn/ver/156/lib/pdftable/lib/color.inc.php
+END
+vncode.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/aia/!svn/ver/156/lib/pdftable/lib/vncode.inc.php
+END
+fpdf.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/aia/!svn/ver/156/lib/pdftable/lib/fpdf.inc.php
+END

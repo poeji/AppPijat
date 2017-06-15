@@ -1,0 +1,482 @@
+.table-striped > tr,
+ .table-striped td
+ {
+    background-color: #f6f7f9!important;
+    border-color: #361563!important;
+ }
+
+ .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    /*z-index: 2;
+    color: #fff;*/
+    background-color: #5b1b62!Important;
+    border-color: #5b1b62!Important;
+}
+
+.navbar-static-top {
+    z-index: 2!important;
+    /*border-width: 0 0 1px;*/
+}
+
+.table-striped > tfoot > tr > td{
+  background-color: #fff!important;
+}
+
+
+  .show-on-mobile{
+    display: none;
+  }
+  .show-on-mobile720{
+    display: none;
+  }
+  .show-on-mobile320{
+    display: none;
+  }
+  .hide-on-mobile{
+    display: block;
+  }
+  .dialogModal .dialogModal_top {
+    right: 25px;
+  }
+  .note_frame {
+    border:none;
+  }
+  @media only screen and (max-width: 1480px){
+    .hide-on-mobile{
+      display: none;
+    }
+    .show-on-mobile1280{
+      display: block;
+    }
+    .show-on-mobile{
+      display: block;
+    }
+    .show-on-mobile320 {
+      display: none;
+    }
+    .hide-on-mobile1280 {
+      display: none;
+    }
+    .hide-on-mobile640 {
+      display: none;
+    }
+
+    .content_checkout {
+      background: #fff none repeat scroll 0 0;
+      border: 1px solid #d82827;
+      bottom: 0;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+      padding: 10px 10px 10px 10px;
+      position: fixed;
+      width: 100% ;
+      z-index: 9999;
+    }
+
+    .dialogModal .dialogModal_content {
+/*      line-height: 20px;
+      min-height: 200px;*/
+      height: 100%;
+/*      padding: 0px 10px 10px;
+      padding-left: 0px;*/
+    }
+    .dialogModal .dialogModal_footer {
+      padding-left: 19px;
+      width: 100%;
+      border: none;
+    }
+
+    .dialogModal .dialogModal_top .dialogModal_header {
+      background: #fff none repeat scroll 0 0;
+      font-size: 12px;
+      height: 100%;
+      line-height: 30px;
+      margin: unset;
+      padding: 15px 25px 0;
+      position: relative;
+      width: 768px;
+      /*margin-left: 248px;*/
+    }
+    .dialogModal .dialogModal_body {
+      color: initial;
+      font-family: sans-serif;
+      font-size: 14px;
+      font-style: initial;
+      font-weight: initial;
+      text-transform: initial;
+      width: 100%;
+    }
+    .btn.btn-primary {
+      width: 92px;
+    }
+
+    .login_logo {
+      width: auto;
+      height: 150px !important;
+      background: url(../img/new/login.png) no-repeat;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 50px;
+    }
+    /*transaction*/
+    .box .box-body{
+      padding-top: 20px;
+    }
+    .box-showcase {
+      width: 25%;
+      padding-bottom: 25%;
+      margin-bottom: 15px;
+    }
+    .dialogModal{
+      width: 720px;
+    }
+    .col-xs-4{
+      padding-left: 40px;
+    }
+    .btn.btn-danger {
+      height: auto;
+      width: auto;
+    }
+    /*pop modal*/
+    .input-group .form-control:not(:first-child):not(:last-child) {
+      border-radius: 0;
+      width: 180px;
+    }
+    .popmod{
+      right: 57px;
+    }
+    .dialogModal.open {
+      width: 1280px;
+    }
+    .popmod-col {
+      width: 0px;
+    }
+  }
+@media only screen and (max-width: 720px){
+
+  .show-on-mobile720{
+    display: block;
+  }
+  .dialogModal.open {
+    width: 720px;
+  }
+  .hide-on-mobile{
+    display: none;
+  }
+  .show-on-mobile{
+    display: block;
+  }
+  .show-on-mobile320 {
+    display: none;
+  }
+  .content_checkout {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d82827;
+    bottom: 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    width: 100% ;
+    z-index: 9999;
+  }
+
+  .dialogModal .dialogModal_content {
+    line-height: 20px;
+    min-height: 200px;
+    padding: 0px 10px 10px;
+    padding-left: 0px;
+  }
+  .dialogModal .dialogModal_footer {
+    padding-left: 19px;
+    width: 491px;
+    border: none;
+  }
+
+  .dialogModal .dialogModal_top .dialogModal_header {
+    background: #fff none repeat scroll 0 0;
+    font-size: 120%;
+    height: 60px;
+    line-height: 30px;
+    margin: unset;
+    padding: 15px 25px 0;
+    position: relative;
+    width: 768px;
+  }
+  .dialogModal .dialogModal_body {
+    color: initial;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: initial;
+    font-weight: initial;
+    text-transform: initial;
+    width: 768px;
+  }
+  .small-box h3, .small-box p {
+    padding-left: 10px;
+    padding-top: 10px;
+    z-index: 5px;
+  }
+  .btn.btn-primary {
+    width: 92px;
+  }
+  .small-box h {
+    padding-left: 10px;
+  }
+  .home_back1 {
+    height: 314px;
+  }
+
+  .login_logo {
+    width: auto;
+    height: 150px !important;
+    background: url(../img/new/login.png) no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+  /*transaction*/
+  .box .box-body{
+    padding-top: 20px;
+  }
+  .box-showcase {
+    width: 25%;
+    padding-bottom: 25%;
+    margin-bottom: 15px;
+  }
+  .dialogModal{
+    width: 720px;
+  }
+  .col-xs-4{
+    padding-left: 40px;
+  }
+  .btn.btn-danger {
+    height: auto;
+    width: auto;
+  }
+  /*pop modal*/
+  .input-group .form-control:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    width: 180px;
+  }
+  .input-group{
+    width: 200px;
+    /*padding-left: 382px*/
+  }
+  .popmod{
+    padding-left: 400px;
+    width: 10px;
+    left: 10px;
+  }
+
+
+}
+@media only screen and (max-width: 320px){
+  /*home*/
+  .box .box-body {
+    padding-top: 8px;
+  }
+  .popmodal_title {
+      font-size: 12px;
+      margin-bottom: 0px;
+  }
+  .dialogModal.open {
+    width: 320px;
+  }
+  .show-on-mobile320 {
+    display: block;
+  }
+
+  .hide-on-mobile320 {
+    display: none;
+  }
+  body {
+    width: 320px;
+    margin: 0;
+    height: 100%;
+  }
+  .wrapper{
+    min-height: 562px;
+    padding-top: 66px;
+  }
+  .small-box p {
+    font-size: 12px;
+    width: 319px;
+    height: 319px;
+  }
+  /*.daterangepicker.dropdown-menu {
+     max-width: none;
+    left: 0;
+    width: 700px;
+    top: 464px;
+    }*/
+  /*home sidebar*/
+  .skin-blue .left-side{
+    min-height: 571px;
+    padding-top: 0;
+    margin-top: 46px;
+    padding-left: 4px;
+  }
+  .left-side.collapse-left {
+    left: -250px;
+  }
+  /*end home*/
+  body > .header{
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 54px;
+    padding-bottom: 38px;
+  }
+  body > .header .navbar {
+    height: 61px;
+  }
+  body > .header .logo{
+    margin-bottom: 3px;
+  }
+  body > .header .navbar .nav > li.user > a {
+    padding-top: 20px;
+    height: 59px;
+  }
+  body > .header .navbar .sidebar-toggle{
+    margin-top: 11px;
+  }
+
+  .skin-blue .navbar .nav .open > a, .skin-blue .navbar .nav .open > a:hover{}
+  .col-lg-3 {
+    padding: 7px;
+    margin: 0;
+    height: 25px;
+  }
+  .small-box {
+    width: 320px;
+    height: auto;
+  }
+  .small-box h3 {
+    font-size: 20px;
+    margin: 15px 0 0 0;
+    padding-top: 0;
+  }
+  .small-box p {
+    padding-top: 25px;
+  }
+  aside {
+    top: 80px !important;
+  }
+  .content{
+    padding: 0;
+    width: 329px;
+  }
+  #table_menu{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 319px;
+  }
+  .container {
+    padding-top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row{
+    width: 301px;
+  }
+  .col-md-4{
+    padding-left: 0px;
+    width: 301px;
+    height: 0;
+  }
+  .box-showcase {
+    width: 50%;
+    padding-bottom: 30%;
+    margin-bottom: 15px;
+  }
+  .skin-blue .navbar .navbar-right > .nav a {
+    padding-top: 20px;
+    height: 60px;
+  }
+  .content_checkout {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .total_checkout[readonly] {
+    height: 37px;
+  }
+  .cari_checkout {
+    height: 37px;
+  }
+  /* transaksi */
+
+  .bootstrap-select > .btn {
+    width: 200px;
+    padding-right: 25px;
+  }
+  .btn.btn-block {
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .form-group {
+    padding-top: 40px;
+    margin-bottom: 1px;
+  }
+  #sub_menu_v .btn_cat_button{
+    width: 286px;
+  }
+  .col-xs-12{
+    padding-right: 0px;
+  }
+  .col-xs-4 {
+    width: 33.33333333333333%;
+    padding-left: 19px;
+  }
+  .col-xs-8 {
+    padding-right: 0px;
+  }
+  .btn.btn-danger {
+    width: 66px;
+    height: 34px;
+    font-size: 12px;
+  }
+  /*pop modal*/
+  .dialogModal * {
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 0;
+    border: 0px;
+  }
+
+  #donate label span {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+  }
+  .dialogModal_footer {
+    width: 280px;
+  }
+  .dialogModal .dialogModal_footer {
+      background: #fafafa;
+      padding: 15px 25px;
+      border-top: 0;
+      text-align: right;
+      width: 266px;
+  }
+  .input-group .form-control:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    width: 180px;
+  }
+  .popmod{
+    left: 13px;
+    margin-left: 45px;
+    width: 24px;
+    padding-left: 0;
+  }
+  .frame-menu-popmod {
+    width: 350px;
+    top: 35px;
+  }
+  .frame-ket {
+    margin-top: 37px;
+  }
+  /*note*/
+  textarea.form-control {
+    width: 240px;
+  }
+}

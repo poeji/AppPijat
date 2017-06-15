@@ -1,0 +1,39 @@
+{
+    "name": "jquery-search-plugin",
+    "title": "jQuery Search plugin",
+    "description": "Plugin that makes easier search over text nodes of static or dynamical html content.",
+    "homepage": "https://github.com/nmartynenko/jquery-search-plugin",
+    "author": {
+        "name": "Nick Martynenko",
+        "url": "https://github.com/nmartynenko/jquery-search-plugin"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nmartynenko/jquery-search-plugin.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">= 1.4.2"
+    },
+    "devDependencies": {
+        "gulp": "~3.8.6",
+        "gulp-uglify": "~0.3.1",
+        "gulp-concat": "~2.3.4",
+        "gulp-jasmine": "~0.2.0",
+        "gulp-qunit": "~0.3.3",
+        "jsdom": "~0.11.1",
+        "jquery": "~2.1.1"
+    },
+    "optionalDependencies": {},
+    "keywords": [
+        "jquery",
+        "search",
+        "text",
+        "plugin"
+    ]
+}

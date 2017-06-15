@@ -1,0 +1,3 @@
+I don't remember the source exactly of the example2 but I post here an similar report.
+Class PDF heritage from PDFTable.
+File bkhdvaora.pdf.php call PDF to generate a report.

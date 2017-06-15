@@ -1,0 +1,82 @@
+/* CSS Document */
+
+.building_fixed{
+	width:200px;
+	bottom:10px;
+	left:10px;
+	margin-left:10px;
+	padding-top:650px;
+	font-size:30px;
+	color:#333;
+	position:relative;
+}
+
+.button_building{
+	background: none repeat scroll 0 0 #2ECC71;
+    border: medium none;
+    color: #f9f6e5;
+    display: block;
+    font-size: 1.25em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 2.5em;
+    padding: 1.5em;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.border_meja{
+	width:100%;
+	position:absolute;
+	margin-top:150px;
+	/*border:4px #ecf0f5 dashed;*/
+	margin-bottom:150px;
+	height:550px;
+}
+
+.border_meja_edit{
+
+	width:100%px;
+	position:absolute;
+	margin-top:150px;
+	border:4px #27AE60 dashed;
+	margin-bottom:150px;
+height:550px;
+}
+
+
+.color_item{
+	height:80px;
+	margin-right:0px;
+	float:right;
+	width:200px;
+	text-transform:uppercase;
+	color:#666;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.jumlah_meja{
+	height:60px;
+	width:60px;
+	background:#333;
+	border-radius:4px;
+	line-height:40px;
+	color:#fff;
+	font-size:40px;
+        padding-top: 10px;
+}
+
+.logo_order{
+	width: 70px;
+	height: 70px;
+	background: url('../img/new/logo.png');
+        background-size: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -35px;
+	position: absolute;
+	background-repeat: no-repeat;
+	right:55%;
+	left: 45%;
+}

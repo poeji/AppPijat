@@ -1,0 +1,25 @@
+.preview_title{
+	width: 100%;
+	text-align: center;
+	font-size: large;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+.preview_top{
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.preivew_format1{
+	
+}
+.preview_category{
+	width: 100%;
+	text-align: center;
+	font-size: large;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.preview_textarea{
+	width:100%;
+}

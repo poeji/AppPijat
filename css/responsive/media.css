@@ -1,0 +1,364 @@
+  .show-on-mobile{
+    display: none;
+  }
+  .hide-on-mobile{
+    display: block;
+  }
+@media only screen and (min-width:800px) and (max-width: 980px){
+  .hide-on-mobile{
+    display: none;
+  }
+  .show-on-mobile{
+    display: block;
+  }
+  .fa {
+    font-size: 40px;
+  }
+  #content_new .hide-on-mobile{
+    display: none !important;
+  }
+  #content_new .show-on-mobile{
+    display: block;
+  }
+  #content_new_right {
+    display: none;
+  }
+  /* logo */
+  [id^="makeMeDraggable_"] {
+    margin: 0 !important;
+    position: relative !important;
+  }
+
+  #content_new > .tooltip {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  #content_new {
+    float: none;
+    height: auto;
+    width: 100%;
+    padding: 90px 0;
+  }
+  .header_fixed {
+    height: 80px;
+    width: 980px;
+  }
+  .footer_fixed{
+    width: 980px;
+  }
+  .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    overflow: auto;
+    width: 980px;
+  }
+  .ui-accordion .ui-accordion-header{
+    padding-top: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+  .morph-button-fixed > button {
+    height: 64px;
+    position: fixed;
+    transition: opacity 0.1s ease 0.5s;
+    width: 160px;
+    z-index: 1000;
+  }
+
+  .morph-button-modal-2 > button, .morph-button-modal-2 .morph-content,
+  .morph-button-modal-3 > button, .morph-button-modal-3 .morph-content {
+    background-color: transparent !important;
+  }
+
+  .morph-button-sidebar {
+      bottom: 0;
+      left: 0;
+      position: static;
+      float: left;
+      width: 150px;
+      margin: 15px;
+  }
+  .logo_order {
+    width: 115px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -41px;
+    position: absolute;
+    right: 55%;
+    left: 45%;
+    background: url('../../img/new/logo.png') no-repeat;
+    background-repeat: no-repeat;
+  }
+ table .hide-on-mobile{
+   display: none;
+ }
+   h3 {
+      font-family: sans-serif;;
+    }
+  .btn_edit_item {
+    background: #0080c0 url("../../img/new/button_edit_item.png") no-repeat scroll left center;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 5px 5px 5px;
+    text-align: right;
+    z-index: 9999 !important;
+    height: 80px;
+  }
+  .btn_payment {
+    background: #099313 url("../../img/new/button_payment.png") no-repeat scroll left center;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 8px;
+    padding: 15px 5px 5px 5px;
+    text-align: right;
+    height: 80px;
+  }
+  .btn_cancel {
+    background: #d72827 url("../../img/new/button_cancel.png") no-repeat scroll left center;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5px;
+    padding: 15px 5px 5px 5px;
+    text-align: right;
+    height: 80px;
+  }
+  .btn_print {
+    background: #505050 url("../../img/new/button_print.png") no-repeat scroll left center;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5px;
+    padding: 15px 5px 5px 5px;
+    text-align: right;
+    height: 80px;
+  }
+  .btn_merger {
+    background: #099313 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 5px 5px 5px;
+    margin-top: 0;
+    height: 80px;
+    text-align: center;
+  }
+
+  .btn_add_order {
+    background: #0080c0 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 5px 5px 5px;
+    text-align: center;
+    height: 80px;
+    z-index: 9999 !important;
+  }
+  .count_item_not_ordered {
+    color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    margin-top: -43px;
+    margin-left: 70px;
+    font-size: 40px;
+    position: absolute;
+    background: rgb(216, 40, 39);
+    border-radius: 50%;
+  }
+  .count_item_ordered {
+    background: #393;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -43px;
+    margin-left: 40px;
+    font-size: 40px;
+    border-radius: 50%;
+    position: absolute;
+  }
+/* reservasi */
+  .content .col-xs-6 {
+      width: 101%;
+    }
+  .table_total_item {
+    font-size: 43px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .table_item thead {
+    line-height: 20px;
+    border-bottom: 1px solid #555;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+  }
+  .ui-helper-reset {
+    font-size: 30px;
+    list-style: none;
+  }
+}
+
+@media only screen and (max-width: 730px){
+  .hide-on-mobile{
+    display: none !important;
+  }
+  #table-popup{
+    width:817px;
+    height:500px;
+  }
+  .table_total_item{
+
+  }
+}
+
+@media only screen and (max-width: 320px){
+  /* order */
+ .show-on-mobile720{
+   display: none;
+ }
+  .morph-button i.fa{
+    font-size: 30px;
+    margin:0;
+    color: #fff;
+  }
+  .hide-on-mobile{
+    display: none !important;
+  }
+  .show-on-mobile{
+    display: block;
+  }
+
+  #content_new_right {
+    display: none;
+  }
+
+  [id^="makeMeDraggable_"] {
+    margin: 0 !important;
+    position: relative !important;
+  }
+
+  #content_new > .tooltip {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+  }
+
+  #content_new {
+    float: none;
+    height: auto;
+    width: 100%;
+    padding: 120px 0;
+  }
+  .morph-button-modal-2 > button, .morph-button-modal-2 .morph-content,
+  .morph-button-modal-3 > button, .morph-button-modal-3 .morph-content {
+    background-color: transparent !important;
+  }
+
+  .morph-button-fixed > button {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border:none !important;
+    font-size: 12px;
+
+  }
+  .morph-button-sidebar {
+    bottom: 0;
+    left: 0;
+    position: static;
+    float: left;
+    height: 10px;
+    width: 150px;
+    margin: 1px;
+
+  }
+  .morph-button.morph-button-modal-2, .morph-button.morph-button-modal-3 {
+  display: inline-block;
+  margin: 0px 0px;
+}
+  .logo_order {
+      background: rgba(0, 0, 0, 0) url("../img/new/logo.png") no-repeat scroll center center;
+      background-size: auto 42px;
+      height: 50px;
+      left: 45%;
+      margin-left: auto;
+      margin-right: -40px;
+      margin-top: -82px;
+      position: absolute;
+      right: 55%;
+      width: 60px;
+  }
+  .morph-button-fixed, .morph-button-fixed .morph-content {
+    height: 80px;
+    width: 5px;
+  }
+  .border_meja {
+  height: 50px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  position: absolute;
+  width: 88%;
+  }
+  .footer_fixed {
+      background: #fff none repeat scroll 0 0;
+      bottom: 0;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.098);
+      height: 50px;
+      margin-bottom: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+  }
+  .position-on-mobile{
+    float: right !important;
+  }
+  .button-320{
+    margin: 5px;
+    font-size: 30px;
+  }
+  .logout_color_button {
+    text-decoration: none;
+  }
+  .morph-button-fixed, .morph-button-fixed .morph-content {
+  height: 80px;
+  width: 50px !important;
+  }
+  .table-320 td {
+    width: 0;
+  }
+  /*.table-320 td.number{
+    margin: 80px 0 0;
+    align: left;
+  }*/
+  table.show-on-mobile {
+      color: #666;
+      float: right;
+      font-size: 12px;
+      font-weight: bold;
+      height: 150px;
+      margin-right: 0;
+      text-transform: uppercase;
+      width: 48px;
+    }
+    .jumlah_meja {
+      background: #333 none repeat scroll 0 0;
+      border-radius: 2px;
+      color: #fff;
+      font-size: 16px;
+      height: 87px;
+      line-height: 40px;
+    }
+    .select {
+      height: 67px;
+    }
+}

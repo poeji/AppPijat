@@ -1,0 +1,122 @@
+  .show-on-mobile{
+    display: none;
+  }
+  .show-on-mobile320{
+    display: none;
+  }
+  .show-on-mobile720{
+    display: none;
+  }
+@media only screen and (max-width: 720px){
+  .hide-on-mobile{
+    display: none;
+  }
+  .show-on-mobile720{
+    display: block;
+  }
+  .logo_order {
+    margin-top: 1px;
+    top: 1px;
+    left: 317px;
+  }
+  .daterangepicker.dropdown-menu {
+    left: 51px;
+  }
+  .content {
+    padding: 16px 0;
+  }
+  .col-md-7 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .container {
+    margin: 4px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #payment_type label span {
+    width: 120px;
+  }
+  #payment_type label{
+    width: 120px;
+  }
+  .calc_button_right{
+    width: 70px;
+    height: 70px;
+    line-height: 62px;
+    background: #1a73bf;
+  }
+
+  .payment_group {
+    padding: 5px;
+  }
+  .calc_button {
+    width:63px;
+    height: 63px;
+    line-height: 62px;
+  }
+  .calc_button_right:hover {
+    background: #458cca;
+  }
+  .col-xs-5 {
+    top: 25px;
+    left:11px;
+  }
+  .col-xs-7 {
+    left: 50px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .hide-on-mobile{
+    display: none;
+  }
+  .show-on-mobile{
+    display: block;
+  }
+  .show-on-mobile320{
+    display: block;
+  }
+  .show-on-mobile720{
+    display: none;
+  }
+  .logo_order {
+    margin-top: 1px;
+    top: 1px;
+    left: 111px;
+  }
+  .content {
+    padding: 16px 0;
+  }
+  .col-md-7 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .container {
+    margin: 4px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #payment_type label span {
+    width: 120px;
+  }
+  #payment_type label{
+    width: 120px;
+  }
+  .calc_button_right{
+    width: 63px;
+    height: 63px;
+    line-height: 62px;
+    background: #1a73bf;
+  }
+  .payment_group {
+    padding: 5px;
+  }
+  .calc_button {
+    width:63px;
+    height: 63px;
+    line-height: 62px;
+  }
+  .calc_button_right:hover {
+    background: #458cca;
+  }
+}

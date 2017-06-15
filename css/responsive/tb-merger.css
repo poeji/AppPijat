@@ -1,0 +1,12 @@
+@media only screen and (max-width: 320px){
+  .box {
+    width: 320px;
+  }
+  .col-xs-6 {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .content{
+    padding-left: 0px;
+  }
+}
